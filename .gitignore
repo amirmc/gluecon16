@@ -1,0 +1,15 @@
+# These are all the files generated
+# when using the `mirage` commands.
+_build
+Makefile
+key_gen.ml
+log
+main.ml
+static1.ml
+static1.mli
+www.xe
+www.xl
+www.xl.in
+www_libvirt.xml
+mir-www.elf
+mir-www.xen
