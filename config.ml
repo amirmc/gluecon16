@@ -20,7 +20,7 @@ let fs = match mode with
   | `Crunch -> crunch "./htdocs"
   | `Archive -> archive_of_files ~dir:"./htdocs" ()
 
-let stack = generic_stackv4 default_console (netif "0")
+let stack = generic_stackv4 default_console tap0
 
 let http_srv = http_server (conduit_direct ~tls:true stack)
 
